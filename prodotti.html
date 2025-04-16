@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodotti - Gazezz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Didot&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Didot', serif;
+      background-color: #3f3b2e;
+      color: white;
+    }
+    nav {
+      display: flex;
+      gap: 40px;
+      padding: 20px;
+      background-color: #3f3b2e;
+      font-size: 18px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 40px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background-color: #504a37;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h2 {
+      font-size: 22px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="prodotti.html">Esplora i prodotti</a>
+    <a href="sudinoi.html">Su di noi</a>
+  </nav>
+  <div class="content">
+    <h1>I nostri Gazebo</h1>
+    <div class="grid">
+      <div class="card">
+        <img src="gazebo1.jpg" alt="Gazebo Moderno">
+        <h2>Gazebo Moderno</h2>
+      </div>
+      <div class="card">
+        <img src="gazebo2.jpg" alt="Gazebo Elegante">
+        <h2>Gazebo Elegante</h2>
+      </div>
+      <div class="card">
+        <img src="gazebo3.jpg" alt="Gazebo Minimal">
+        <h2>Gazebo Minimal</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
